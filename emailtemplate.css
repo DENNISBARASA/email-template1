@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(235, 231, 231);
+    background-color: black;
+}
+.topinfo{
+    text-align: center;
+}
+.logo{
+display: inline-block;
+margin: 30px;
+}
+.manu{
+    float: right;
+}
+h1{
+    color: red;
+}
+span{
+    color: yellow;
+}
+img{
+    border-radius: 20px;
+}
+.cont1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont1,.cont2,.cont3{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px;
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px;
+}
+.title10{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.footer-images{
+   display: flex;
+   flex-wrap: wrap;
+}
+.men,.women,.kids{
+    margin-left: 50px;
+}
+.fix,.vid,.pod,.news,.shop{
+    margin-left: 150px;
+}
+.action{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.hech2{
+    text-align: center;
+}
+@media only screen and(max-width:600px) {
+    .cont1,.cont2,.cont3,.title10{
+        flex-direction: column;
+    }
+}
+@media only screen and(max-width:992px) {
+    .cont1,.cont2,.cont3,.title10{
+        flex-direction:column;
+    }
+}
